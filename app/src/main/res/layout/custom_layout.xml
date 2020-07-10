@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ingredientImageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#00E676"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/ingredientNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ingredientImageView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="85dp"
+        android:layout_toEndOf="@+id/ingredientImageView"
+        android:layout_toRightOf="@+id/ingredientImageView"
+        android:fontFamily="sans-serif-light"
+        android:text="Onions"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/ingredientRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ingredientImageView"
+        android:layout_alignRight="@+id/ingredientImageView"
+        android:layout_alignBottom="@+id/ingredientImageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginEnd="-260dp"
+        android:layout_marginRight="-260dp"
+        android:layout_marginBottom="15dp" />
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="125dp"
+        android:background="#4CAF50"
+        android:layout_alignBottom="@+id/ingredientImageView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/ingredientImageView"
+        android:layout_toRightOf="@+id/ingredientImageView" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/ingredientImageView"
+        android:layout_alignBottom="@+id/ingredientImageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="0dp"
+        android:background="#4CAF50" />
+</RelativeLayout>

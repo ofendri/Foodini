@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Foodini</string>
+    <string name="title_activity_startscreen">Startscreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_intro">IntroActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="diet_choices">In order for our algorithm to identify the best ingredient and recipe choices for you, it is imperative we know your diet preferences.\n\nHere is how some diet classifications typically impact food choices:</string>
+    <string name="religious_food_habit">Due to the diversity in religions, cultures and individual beliefs, it is always good practice to ask about dietary requirements.\n\nHere is how some religious and cultural believes typically impact food choices:</string>
+    <string name="allergies_info">Food allergy is an abnormal response to a food triggered by your body\'s immune system.\n\nThe allergic reaction may be mild. In rare cases it can cause a severe reaction called anaphylaxis. Symptoms of food allergy include\n\n
+    \t\t• Itching or swelling in your mouth\n\n
+    \t\t• Vomiting, diarrhea, or abdominal cramps and pain\n\n
+    \t\t• Hives or eczema\n\n
+    \t\t• Tightening of the throat and trouble breathing\n\n
+    \t\t• Drop in blood pressure\n\nYour health care provider may use a detailed history, elimination diet, and skin and blood tests to diagnose a food allergy.\n\n
+        When you have food allergies, you must be prepared to treat an accidental exposure. Wear a medical alert bracelet or necklace, and carry an auto-injector device containing epinephrine (adrenaline).\n\n
+        You can only prevent the symptoms of food allergy by avoiding the food. After you and your health care provider have identified the foods to which you are sensitive, you must remove them from your diet.\n\n
+        Source: <a href="https://medlineplus.gov/foodallergy.html#:~:text=Food%20allergy%20is%20an%20abnormal,tree%20nuts%2C%20such%20as%20walnuts."><font color='#01C6DB'>https://medlineplus.gov/foodallergy.html</font></a></string>
+</resources>

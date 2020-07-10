@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:27
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-aaronic-order-church:before { content: "\f100"; }
+.flaticon-ankh:before { content: "\f101"; }
+.flaticon-ayyavazhi:before { content: "\f102"; }
+.flaticon-bah:before { content: "\f103"; }
+.flaticon-buddhism:before { content: "\f104"; }
+.flaticon-caodaism:before { content: "\f105"; }
+.flaticon-catholicism:before { content: "\f106"; }
+.flaticon-catholicism-1:before { content: "\f107"; }
+.flaticon-catholicism-2:before { content: "\f108"; }
+.flaticon-celtic-cross:before { content: "\f109"; }
+.flaticon-celtic-cross-1:before { content: "\f10a"; }
+.flaticon-chi-rho:before { content: "\f10b"; }
+.flaticon-christian-reformed-church:before { content: "\f10c"; }
+.flaticon-christianity:before { content: "\f10d"; }
+.flaticon-christianity-1:before { content: "\f10e"; }
+.flaticon-confucianism:before { content: "\f10f"; }
+.flaticon-cross:before { content: "\f110"; }
+.flaticon-cross-1:before { content: "\f111"; }
+.flaticon-eckankar:before { content: "\f112"; }
+.flaticon-faravahar:before { content: "\f113"; }
+.flaticon-gnosticism:before { content: "\f114"; }
+.flaticon-greek-cross:before { content: "\f115"; }
+.flaticon-humanism:before { content: "\f116"; }
+.flaticon-islam:before { content: "\f117"; }
+.flaticon-jainism:before { content: "\f118"; }
+.flaticon-jainism-1:before { content: "\f119"; }
+.flaticon-jainism-2:before { content: "\f11a"; }
+.flaticon-judaism:before { content: "\f11b"; }
+.flaticon-judaism-1:before { content: "\f11c"; }
+.flaticon-native-american-sun:before { content: "\f11d"; }
+.flaticon-nordic-paganism:before { content: "\f11e"; }
+.flaticon-occultism:before { content: "\f11f"; }
+.flaticon-odin:before { content: "\f120"; }
+.flaticon-om:before { content: "\f121"; }
+.flaticon-orthodox:before { content: "\f122"; }
+.flaticon-paganism:before { content: "\f123"; }
+.flaticon-paganism-1:before { content: "\f124"; }
+.flaticon-paganism-2:before { content: "\f125"; }
+.flaticon-paganism-3:before { content: "\f126"; }
+.flaticon-pastafarianism:before { content: "\f127"; }
+.flaticon-satanic-church:before { content: "\f128"; }
+.flaticon-semitic-neopaganism:before { content: "\f129"; }
+.flaticon-shinto:before { content: "\f12a"; }
+.flaticon-shiva:before { content: "\f12b"; }
+.flaticon-sikhism:before { content: "\f12c"; }
+.flaticon-sufism:before { content: "\f12d"; }
+.flaticon-unitarian-universalism:before { content: "\f12e"; }
+.flaticon-united-church-of-christ:before { content: "\f12f"; }
+.flaticon-wicca:before { content: "\f130"; }
+.flaticon-yin-yang:before { content: "\f131"; }
+    
+    $font-Flaticon-aaronic-order-church: "\f100";
+    $font-Flaticon-ankh: "\f101";
+    $font-Flaticon-ayyavazhi: "\f102";
+    $font-Flaticon-bah: "\f103";
+    $font-Flaticon-buddhism: "\f104";
+    $font-Flaticon-caodaism: "\f105";
+    $font-Flaticon-catholicism: "\f106";
+    $font-Flaticon-catholicism-1: "\f107";
+    $font-Flaticon-catholicism-2: "\f108";
+    $font-Flaticon-celtic-cross: "\f109";
+    $font-Flaticon-celtic-cross-1: "\f10a";
+    $font-Flaticon-chi-rho: "\f10b";
+    $font-Flaticon-christian-reformed-church: "\f10c";
+    $font-Flaticon-christianity: "\f10d";
+    $font-Flaticon-christianity-1: "\f10e";
+    $font-Flaticon-confucianism: "\f10f";
+    $font-Flaticon-cross: "\f110";
+    $font-Flaticon-cross-1: "\f111";
+    $font-Flaticon-eckankar: "\f112";
+    $font-Flaticon-faravahar: "\f113";
+    $font-Flaticon-gnosticism: "\f114";
+    $font-Flaticon-greek-cross: "\f115";
+    $font-Flaticon-humanism: "\f116";
+    $font-Flaticon-islam: "\f117";
+    $font-Flaticon-jainism: "\f118";
+    $font-Flaticon-jainism-1: "\f119";
+    $font-Flaticon-jainism-2: "\f11a";
+    $font-Flaticon-judaism: "\f11b";
+    $font-Flaticon-judaism-1: "\f11c";
+    $font-Flaticon-native-american-sun: "\f11d";
+    $font-Flaticon-nordic-paganism: "\f11e";
+    $font-Flaticon-occultism: "\f11f";
+    $font-Flaticon-odin: "\f120";
+    $font-Flaticon-om: "\f121";
+    $font-Flaticon-orthodox: "\f122";
+    $font-Flaticon-paganism: "\f123";
+    $font-Flaticon-paganism-1: "\f124";
+    $font-Flaticon-paganism-2: "\f125";
+    $font-Flaticon-paganism-3: "\f126";
+    $font-Flaticon-pastafarianism: "\f127";
+    $font-Flaticon-satanic-church: "\f128";
+    $font-Flaticon-semitic-neopaganism: "\f129";
+    $font-Flaticon-shinto: "\f12a";
+    $font-Flaticon-shiva: "\f12b";
+    $font-Flaticon-sikhism: "\f12c";
+    $font-Flaticon-sufism: "\f12d";
+    $font-Flaticon-unitarian-universalism: "\f12e";
+    $font-Flaticon-united-church-of-christ: "\f12f";
+    $font-Flaticon-wicca: "\f130";
+    $font-Flaticon-yin-yang: "\f131";

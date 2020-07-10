@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="#000000"
+    tools:context=".ThirdIntroFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tvOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:text="Do you have any allergies (severe or mild) that may impact your food choices? "/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOne"
+        app:layout_constraintVertical_bias="0.2">
+
+        <RadioButton
+            android:id="@+id/eggAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Eggs"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/milkAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Milk"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/peanutsAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Peanuts"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/treeNutsAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Tree nuts"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/fishAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Fish"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/shellfishAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Shellfish"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/wheatAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Wheat"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/soyAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Soy"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/noAllergyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="\t Other or none"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton_white"
+        android:text="Next"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"
+        app:layout_constraintHorizontal_bias="0.85"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup">
+
+        <ImageView
+            android:id="@+id/eggsImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_eggs" />
+
+
+        <ImageView
+            android:id="@+id/milkImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_milk" />
+
+
+        <ImageView
+            android:id="@+id/peanutsImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_peanut" />
+
+        <ImageView
+            android:id="@+id/walnutImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_walnut" />
+
+        <ImageView
+            android:id="@+id/fishImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_fish" />
+
+        <ImageView
+            android:id="@+id/shellfishImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_shrimp" />
+
+        <ImageView
+            android:id="@+id/wheatImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_wheat" />
+
+        <ImageView
+            android:id="@+id/soyBeansImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_soy_beans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/moreInfoLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/nextButton"
+        app:layout_constraintEnd_toStartOf="@+id/nextButton"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nextButton"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/questionMarkImageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_question" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Learn why\nthis is relevant"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/nextButton"
+            app:layout_constraintEnd_toStartOf="@+id/nextButton"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintLeft_toLeftOf="@id/tvOne"
+            app:layout_constraintRight_toRightOf="@id/tvOne"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nextButton" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noChoiceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please make sure to specify your dietary choice!"
+        android:visibility="invisible"
+        android:textColor="@color/colorError"
+        android:fontFamily="sans-serif-condensed-light"
+        app:layout_constraintVertical_bias="0.95"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/nextButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

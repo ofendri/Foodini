@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "687902007737",
+    "firebase_url": "https://foodini-d71ab.firebaseio.com",
+    "project_id": "foodini-d71ab",
+    "storage_bucket": "foodini-d71ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687902007737:android:cebce24cb113ee31cd1668",
+        "android_client_info": {
+          "package_name": "com.example.foodini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687902007737-eu5fajjc0ldkjctv1j6leb8r6s8r4d5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9E2hiel3ZSMVAHYMlOvrgyel40bmUyCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687902007737-eu5fajjc0ldkjctv1j6leb8r6s8r4d5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
